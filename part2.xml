@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="15" failures="4" disabled="0" errors="0" timestamp="2018-10-06T11:24:56" time="1.72" name="AllTests">
+  <testsuite name="TestEnv_Reliable" tests="2" failures="2" disabled="0" errors="0" time="0.212">
+    <testcase name="TestAccept_Backlog1" status="run" time="0.108" classname="TestEnv_Reliable">
+      <failure message="testhandshake.cpp:90&#x0A;Value of: expected_accept&#x0A;  Actual: 3&#x0A;Expected: (int)client_sockets.size()&#x0A;Which is: 1" type=""><![CDATA[testhandshake.cpp:90
+Value of: expected_accept
+  Actual: 3
+Expected: (int)client_sockets.size()
+Which is: 1]]></failure>
+      <failure message="testhandshake.cpp:168&#x0A;Value of: expected_connect&#x0A;  Actual: 1&#x0A;Expected: (int)client_sockets.size()&#x0A;Which is: 0" type=""><![CDATA[testhandshake.cpp:168
+Value of: expected_connect
+  Actual: 1
+Expected: (int)client_sockets.size()
+Which is: 0]]></failure>
+      <failure message="testhandshake.cpp:168&#x0A;Value of: expected_connect&#x0A;  Actual: 1&#x0A;Expected: (int)client_sockets.size()&#x0A;Which is: 0" type=""><![CDATA[testhandshake.cpp:168
+Value of: expected_connect
+  Actual: 1
+Expected: (int)client_sockets.size()
+Which is: 0]]></failure>
+    </testcase>
+    <testcase name="TestAccept_Backlog2" status="run" time="0.104" classname="TestEnv_Reliable">
+      <failure message="testhandshake.cpp:90&#x0A;Value of: expected_accept&#x0A;  Actual: 6&#x0A;Expected: (int)client_sockets.size()&#x0A;Which is: 1" type=""><![CDATA[testhandshake.cpp:90
+Value of: expected_accept
+  Actual: 6
+Expected: (int)client_sockets.size()
+Which is: 1]]></failure>
+      <failure message="testhandshake.cpp:168&#x0A;Value of: expected_connect&#x0A;  Actual: 1&#x0A;Expected: (int)client_sockets.size()&#x0A;Which is: 0" type=""><![CDATA[testhandshake.cpp:168
+Value of: expected_connect
+  Actual: 1
+Expected: (int)client_sockets.size()
+Which is: 0]]></failure>
+      <failure message="testhandshake.cpp:168&#x0A;Value of: expected_connect&#x0A;  Actual: 1&#x0A;Expected: (int)client_sockets.size()&#x0A;Which is: 0" type=""><![CDATA[testhandshake.cpp:168
+Value of: expected_connect
+  Actual: 1
+Expected: (int)client_sockets.size()
+Which is: 0]]></failure>
+      <failure message="testhandshake.cpp:168&#x0A;Value of: expected_connect&#x0A;  Actual: 1&#x0A;Expected: (int)client_sockets.size()&#x0A;Which is: 0" type=""><![CDATA[testhandshake.cpp:168
+Value of: expected_connect
+  Actual: 1
+Expected: (int)client_sockets.size()
+Which is: 0]]></failure>
+      <failure message="testhandshake.cpp:168&#x0A;Value of: expected_connect&#x0A;  Actual: 1&#x0A;Expected: (int)client_sockets.size()&#x0A;Which is: 0" type=""><![CDATA[testhandshake.cpp:168
+Value of: expected_connect
+  Actual: 1
+Expected: (int)client_sockets.size()
+Which is: 0]]></failure>
+      <failure message="testhandshake.cpp:168&#x0A;Value of: expected_connect&#x0A;  Actual: 1&#x0A;Expected: (int)client_sockets.size()&#x0A;Which is: 0" type=""><![CDATA[testhandshake.cpp:168
+Value of: expected_connect
+  Actual: 1
+Expected: (int)client_sockets.size()
+Which is: 0]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="TestEnv_Any" tests="13" failures="2" disabled="0" errors="0" time="1.508">
+    <testcase name="TestAccept_BeforeAccept" status="run" time="0.007" classname="TestEnv_Any" />
+    <testcase name="TestAccept_AfterAccept" status="run" time="0.007" classname="TestEnv_Any" />
+    <testcase name="TestAccept_MultipleInterface1" status="run" time="0.707" classname="TestEnv_Any">
+      <failure message="testhandshake.cpp:48&#x0A;Value of: 0&#x0A;Expected: ret&#x0A;Which is: -1" type=""><![CDATA[testhandshake.cpp:48
+Value of: 0
+Expected: ret
+Which is: -1]]></failure>
+      <failure message="testhandshake.cpp:90&#x0A;Value of: expected_accept&#x0A;  Actual: 3&#x0A;Expected: (int)client_sockets.size()&#x0A;Which is: 1" type=""><![CDATA[testhandshake.cpp:90
+Value of: expected_accept
+  Actual: 3
+Expected: (int)client_sockets.size()
+Which is: 1]]></failure>
+      <failure message="testhandshake.cpp:90&#x0A;Value of: expected_accept&#x0A;  Actual: 5&#x0A;Expected: (int)client_sockets.size()&#x0A;Which is: 0" type=""><![CDATA[testhandshake.cpp:90
+Value of: expected_accept
+  Actual: 5
+Expected: (int)client_sockets.size()
+Which is: 0]]></failure>
+      <failure message="testhandshake.cpp:168&#x0A;Value of: expected_connect&#x0A;  Actual: 3&#x0A;Expected: (int)client_sockets.size()&#x0A;Which is: 1" type=""><![CDATA[testhandshake.cpp:168
+Value of: expected_connect
+  Actual: 3
+Expected: (int)client_sockets.size()
+Which is: 1]]></failure>
+      <failure message="testhandshake.cpp:168&#x0A;Value of: expected_connect&#x0A;  Actual: 5&#x0A;Expected: (int)client_sockets.size()&#x0A;Which is: 0" type=""><![CDATA[testhandshake.cpp:168
+Value of: expected_connect
+  Actual: 5
+Expected: (int)client_sockets.size()
+Which is: 0]]></failure>
+    </testcase>
+    <testcase name="TestAccept_MultipleInterface2" status="run" time="0.723" classname="TestEnv_Any">
+      <failure message="testhandshake.cpp:48&#x0A;Value of: 0&#x0A;Expected: ret&#x0A;Which is: -1" type=""><![CDATA[testhandshake.cpp:48
+Value of: 0
+Expected: ret
+Which is: -1]]></failure>
+      <failure message="testhandshake.cpp:90&#x0A;Value of: expected_accept&#x0A;  Actual: 4&#x0A;Expected: (int)client_sockets.size()&#x0A;Which is: 1" type=""><![CDATA[testhandshake.cpp:90
+Value of: expected_accept
+  Actual: 4
+Expected: (int)client_sockets.size()
+Which is: 1]]></failure>
+      <failure message="testhandshake.cpp:90&#x0A;Value of: expected_accept&#x0A;  Actual: 2&#x0A;Expected: (int)client_sockets.size()&#x0A;Which is: 0" type=""><![CDATA[testhandshake.cpp:90
+Value of: expected_accept
+  Actual: 2
+Expected: (int)client_sockets.size()
+Which is: 0]]></failure>
+      <failure message="testhandshake.cpp:168&#x0A;Value of: expected_connect&#x0A;  Actual: 4&#x0A;Expected: (int)client_sockets.size()&#x0A;Which is: 1" type=""><![CDATA[testhandshake.cpp:168
+Value of: expected_connect
+  Actual: 4
+Expected: (int)client_sockets.size()
+Which is: 1]]></failure>
+      <failure message="testhandshake.cpp:168&#x0A;Value of: expected_connect&#x0A;  Actual: 2&#x0A;Expected: (int)client_sockets.size()&#x0A;Which is: 0" type=""><![CDATA[testhandshake.cpp:168
+Value of: expected_connect
+  Actual: 2
+Expected: (int)client_sockets.size()
+Which is: 0]]></failure>
+    </testcase>
+    <testcase name="TestConnect_BeforeAccept" status="run" time="0.007" classname="TestEnv_Any" />
+    <testcase name="TestConnect_AfterAccept" status="run" time="0.007" classname="TestEnv_Any" />
+    <testcase name="TestConnect_SimultaneousConnect" status="run" time="0.006" classname="TestEnv_Any" />
+    <testcase name="TestClose_Connect_CloseFirst" status="run" time="0.006" classname="TestEnv_Any" />
+    <testcase name="TestClose_Connect_CloseLater" status="run" time="0.006" classname="TestEnv_Any" />
+    <testcase name="TestClose_Connect_CloseSimultaneous" status="run" time="0.008" classname="TestEnv_Any" />
+    <testcase name="TestClose_Accept_CloseLater" status="run" time="0.007" classname="TestEnv_Any" />
+    <testcase name="TestClose_Accept_CloseFirst" status="run" time="0.009" classname="TestEnv_Any" />
+    <testcase name="TestClose_Accept_CloseSimultaneous" status="run" time="0.007" classname="TestEnv_Any" />
+  </testsuite>
+</testsuites>
